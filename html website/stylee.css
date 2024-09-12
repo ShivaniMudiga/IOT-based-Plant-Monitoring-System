@@ -9,19 +9,12 @@ body {
 }
 
 header, footer {
-    background-color:#e5f7a7;
+    background-color: #e5f7a7;
     padding: 10px 20px;
     color: blue;
     width: 100%;
-    
 }
-.logo-container
-{
-    flex-grow: 1;
-}
-.logo-container{
-    height: 50px;
-}
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -35,12 +28,8 @@ header nav ul {
     gap: 10px;
 }
 
-header nav ul li {
-    margin: 0;
-}
-
 header nav ul li a {
-    color:blue;
+    color: blue;
     text-decoration: none;
     font-weight: bold;
 }
@@ -55,7 +44,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
 
 .buttons {
@@ -79,12 +68,6 @@ main {
     transition: background-color 0.3s;
 }
 
-
-
-.buttons {
-    display: flex;
-    gap: 40px;
-}
 .rectangle-btn:hover {
     background-color: rgb(240, 240, 142);
 }
